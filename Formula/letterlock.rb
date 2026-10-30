@@ -1,7 +1,6 @@
 class Letterlock < Formula
   desc "Free five-letter word-guessing game for the terminal"
   homepage "https://github.com/pravin/letterlock"
-  version "0.2.0"
   license "GPL-3.0-or-later"
 
   on_macos do
