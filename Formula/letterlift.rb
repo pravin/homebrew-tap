@@ -5,23 +5,23 @@ class Letterlift < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/pravin/letterlift/releases/download/v0.1.0/letterlift-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "4d26e20b4fc2a5817bba5b8f3f63cc2869b4d24ccdc6231f855536f0124825fd"
+      url "https://github.com/pravin/letterlift/releases/download/v0.1.1/letterlift-v0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "842bcddd61f861a9adc02350718d2124a1296c95923439a82ea6d6fe4e08d6b4"
     end
     on_intel do
-      url "https://github.com/pravin/letterlift/releases/download/v0.1.0/letterlift-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "600786c7f4a81523d44abb6b99720b49cfb67411b46dbef4d24d9ab7911438eb"
+      url "https://github.com/pravin/letterlift/releases/download/v0.1.1/letterlift-v0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "4b477bf0ad1f88ff8145aeade2021edb5b83d22604752cb8b3c811f13ce81ab1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/pravin/letterlift/releases/download/v0.1.0/letterlift-v0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "b352b5fca6d0ff0c847d273be9d8543f023f7e460fc3abce7232f17f2d185aec"
+      url "https://github.com/pravin/letterlift/releases/download/v0.1.1/letterlift-v0.1.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "f18a027c3ea5b4c9486d5e5f7656ff0f39877331717a96613dd4e5273598f4de"
     end
     on_intel do
-      url "https://github.com/pravin/letterlift/releases/download/v0.1.0/letterlift-v0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "2155a5dd906a19e60b1c1ffa5c2a5532b676993a996f7d2f93a943934a4ef76d"
+      url "https://github.com/pravin/letterlift/releases/download/v0.1.1/letterlift-v0.1.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "82fbca17081bfb635517333399caef316d489c5a934cdb67257c3341244adab9"
     end
   end
 
