@@ -1,24 +1,24 @@
 class RoomyCli < Formula
   desc "Find out what's filling your disk, and clear out developer junk"
   homepage "https://github.com/pravin/roomy"
-  version "1.0.0"
+  version "1.0.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/pravin/roomy/releases/download/v1.0.0/roomy-cli-1.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "38b7bb05551fc268bbf2a34fe73c38f1a1a0c50b60f0501592db508ea8bd98ed"
+      url "https://github.com/pravin/roomy/releases/download/v1.0.1/roomy-cli-1.0.1-aarch64-apple-darwin.tar.gz"
+      sha256 "dcbd8c91abca4ee3ec6ca398cbfecfc3c3789093a62caee1463f29b42f2b51aa"
     end
     on_intel do
-      url "https://github.com/pravin/roomy/releases/download/v1.0.0/roomy-cli-1.0.0-x86_64-apple-darwin.tar.gz"
-      sha256 "43ee5ba1d15bc2827d4c6ec49d86b7a8d1278a2f845722f31493115345b45bc7"
+      url "https://github.com/pravin/roomy/releases/download/v1.0.1/roomy-cli-1.0.1-x86_64-apple-darwin.tar.gz"
+      sha256 "05cbb1c2305c69d3fe51bbb4d8c9f6bb99b242162a2cac14267649a230edde7d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/pravin/roomy/releases/download/v1.0.0/roomy-cli-1.0.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "f92567379d3fe9a2c636af1f0eeb64eb74cb263347a2c5e03c61f17abb55b0f6"
+      url "https://github.com/pravin/roomy/releases/download/v1.0.1/roomy-cli-1.0.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "979b68a3d7caa1df8787b08d823e1d0e171355886d78df38ceed9c9e71eb8fda"
     end
   end
 

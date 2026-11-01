@@ -1,6 +1,6 @@
 cask "roomy" do
-  version "1.0.0"
-  sha256 "352133f7cba2cb6288d25ab366aeffb23acbc1529f5d91e4413471c5201165db"
+  version "1.0.1"
+  sha256 "65912da29c4a0d80da6f1de6851cab387c846058f13601a1f414b4dc8578c929"
 
   url "https://github.com/pravin/roomy/releases/download/v#{version}/Roomy_#{version}_universal.dmg"
   name "Roomy"
